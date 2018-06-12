@@ -181,15 +181,8 @@ def main() :
         first = chooseFirst();
         
         dispStrSlow('The person going first will be ', 0.03);
-        #print('The person going first will be ', end = '');
         dispStrSlow('...', 0.5); 
         dispStrSlow(f' Player {players[first][0]}!\n\n', 0.03); 
-        #phrase2 = ;
-        #print(f' Player {players[first][0]}!\n');
-        #for i in phrase2 :
-        #    print(i, end='');
-        #    sys.stdout.flush();
-        #    time.sleep(0.1);
         time.sleep(0.5);
         print();
         
